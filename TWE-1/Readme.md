@@ -1,7 +1,7 @@
-#TWE-1 Readme
+# TWE-1 Readme
 Topical Word Embedding Model #1
 
-##Requirements
+## Requirements
 **Please got the following installed:**
 
 * python2
@@ -11,14 +11,14 @@ Topical Word Embedding Model #1
 * gensim
  
 
-##Usage
+## Usage
 
-####1. Get the [gibbslda++](http://gibbslda.sourceforge.net), run it and get the tassign file and the wordmap.txt
-####2. Use the command: `python train.py wordmap_filename tassign_filename topic_number` to run the TWE-1
-####3. Output file are under the directory `output`: `word_vector.txt` and `topic_vector.txt`
+#### 1. Get the [gibbslda++](http://gibbslda.sourceforge.net), run it and get the tassign file and the wordmap.txt
+#### 2. Use the command: `python train.py wordmap_filename tassign_filename topic_number` to run the TWE-1
+#### 3. Output file are under the directory `output`: `word_vector.txt` and `topic_vector.txt`
 
 
-##Output Format
+## Output Format
 
 * #### `word_vector.txt` : each line is as follows:
 `word value#0 value#1 ... value#n`**: the word's vector is (value#1, value#2...value#n)**
